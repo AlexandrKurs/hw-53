@@ -1,4 +1,5 @@
 import AddTaskForm from "./Components/AddTaskForm.tsx";
+import './Components/Style.css'
 
 const App= () => {
 

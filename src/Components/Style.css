@@ -1,0 +1,28 @@
+.form {
+    text-align: center;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.task {
+    padding: 5px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 600px;
+}
+
+.input {
+    width: 90%;
+}

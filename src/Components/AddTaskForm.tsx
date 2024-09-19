@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Style.css'
 
 interface Task {
     id: string;
@@ -40,7 +41,7 @@ const AddTaskForm = () => {
 
     return (
         <div>
-            <input
+            <input className="input"
                 type="text"
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)}
