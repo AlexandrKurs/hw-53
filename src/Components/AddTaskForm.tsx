@@ -47,7 +47,26 @@ const AddTaskForm = () => {
                 onChange={(e) => setNewTask(e.target.value)}
             />
             <button onClick={addTask}>Add</button>
+
             <ul className="list">
+                <li className="task">
+                    <input
+                        type="checkbox"
+                    />
+                    <span>
+                        Create homework for Attractor
+                    </span>
+                    <button>Delete</button>
+                </li>
+                <li className="task">
+                    <input
+                        type="checkbox"
+                    />
+                    <span>
+                        Export homework to Github
+                    </span>
+                    <button>Delete</button>
+                </li>
                 {tasks.map((task) => (
                     <li className="task" key={task.id}>
                         <input

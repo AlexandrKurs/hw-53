@@ -5,7 +5,7 @@ const App= () => {
 
   return (
       <div className="form">
-            <AddTaskForm />
+          <AddTaskForm/>
       </div>
   )
 };
